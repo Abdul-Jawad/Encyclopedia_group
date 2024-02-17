@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Encyclopedia</title>
+    <style>
+        img{
+            width: 200;
+            height: 183;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        .beneath-slogan{
+            display: block;
+            font-family: Linux Libertine, Georgia, Times, "Source Serif Pro", serif;
+            font-size: 15px;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+        .central-text{
+            color: black;
+            display: inline-block;
+            
+            font-size: 50px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0074D9;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; 
+        }
+  
+        form {
+            display: flex;
+        }
+  
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px 0 0 4px;
+            font-size: 16px;
+        }
+  
+        button {
+            padding: 10px 20px;
+            background-color:#36c;
+            color: white;
+            border: 1px solid #36c;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   
+    <h1>
+        <span class="central-text">ProjectT1-Pedia</span>
+        <strong class="beneath-slogan">The Free Encycolpedia</strong>
+    </h1>
+    <div>
+        <img src="c:\Users\Cornerstone\Desktop\Wikipedia-logo-v2.png"
+         alt="Wikipedia">
+    </div>
+    
+    <nav>
+        <a href="index.html">Index</a>
+        <a href="new_page.html">New Page</a>
+        <a href="edit.html">Edit Page</a>
+        <a href="project.html">Random Page</a>
+        <div class="search-container">
+            <form>
+                <input type="text" name="q" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <main>
+        <h2>Welcome to the Encyclopedia!</h2>
+        <p>This is the main content of the encyclopedia.</p>
+        <p>Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Encyclopedia. All rights reserved.</p>
+    </footer>
+</body>
+</html>

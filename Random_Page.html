@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclopedia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header> 
+        <div class="Nav">
+            <div id="start">
+                <img="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Encyclopedia_icon.svg/828px-Encyclopedia_icon.svg.png" style="width: 3.0rem "/>&nbsp;
+                <h1>Encyclopedia</h1>
+            </div>
+            
+            <div id="Dash">
+                <ul>
+                <li><a href="html.html">Home</a></li>
+                <li><a href="new_page.html">New Page</a></li>
+                <li><a href="random_page.html">Random Page</a></li>
+                </ul>
+            </div>   
+        </div> 
+    <style>
+
+
+            h1,h2 {
+            text-align: center;
+            padding-top: 0.9rem;;
+            font-size: 1rem;
+            
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display:block;
+
+        }
+
+        .Nav {
+            display: flex ;
+            justify-content: space-between;
+            background-color: #cfeb8f;
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        #Dash ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0.5rem;
+            
+        }
+
+        #Dash ul li {
+            margin-left: 0.5rem;
+            
+        }
+
+        #Dash ul li:first-child {
+            margin-left: 0;
+        }
+        #Dash ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
+        }
+        .container{
+            text-align: center;
+            margin-top: 6rem;
+        }
+        form input {
+            width: 40%;
+            border-radius: 10px;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.15rem;
+            border-radius: 10px;
+            border: none;
+            font-weight: bold;
+            font-size: small;
+        }
+        form button:hover{
+            cursor: pointer;
+            background-color: teal;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.2rem 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        #start{
+            margin-left: 0.5rem;
+            display:flex;
+            
+        }
+        .icon{
+            padding:0.5rem;
+        }
+        .articles{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .art{
+            width:100%;
+            
+            flex-wrap: wrap;
+            border: white solid 0.15rem;
+            background-color: rgb(223, 222, 221);
+            margin-bottom:1.5rem ; 
+            transition: all 2ms ease;
+        }
+
+        .art:hover{
+            transform: rotateY(10deg);
+        }
+
+
+
+
+
+     </style>
+    </header>   
+
+    <div class="container">
+        <h2>Welcome to My Encyclopedia!</h2>
+        <form action="search_results.html" method="GET">
+            <input type="text" name="q" placeholder="&nbsp;Search...">
+            <button type="submit"> Search</button>
+        </form>
+        <div class="articles">
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1>
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p>
+            </div>
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1>
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p></div>
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1>
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p></div>
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1>
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p></div>
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1> 
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p></div>
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1> 
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p></div>
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1>
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p></div>
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1>
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p></div>
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1> 
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p></div>
+            <div class="art">
+                <h1>UTAG Calls off indefinite strike action</h1>
+                <p>The long awaited strike action was recently called off as an agreement was reached between Utag and the GUTA. Surprisingly, students were the most disappointed with regards to this action.  </p></div>
+        </div><br/><br/>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Encyclopedia. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
